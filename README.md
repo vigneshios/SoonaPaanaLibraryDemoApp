@@ -18,6 +18,13 @@ and suddenly someone sneaks and you're like *Paathutaan daa!*
 
 People around you are reading over your shoulder.
 
+## Real-world Use Cases
+Building an interface for these and beyond:
+Entering passwords or OTPs in public
+Writing private notes
+Confusing nosy co-passengers
+Just... for fun!
+
 ---
 
 ##  The Solution
@@ -29,6 +36,10 @@ People around you are reading over your shoulder.
 -  Works with both `UITextField` and `UITextView`
 -  **No autocorrect or spellcheck** interference
 -  Easily revert obfuscated text using a confuser logic
+
+-  
+## Demo:
+https://github.com/vigneshios/SoonaPaanaLibraryDemoApp/tree/master
 
 ---
 
@@ -61,17 +72,5 @@ field.placeholder = "Type something secret"
 let textView = SoonaPaanaTextView()
 textView.text = "Hide my story..."
 
----
-## Real-world Use Cases
-Building an interface for these and beyond:
-Entering passwords or OTPs in public
-Writing private notes
-Confusing nosy co-passengers
-Just... for fun!
 
----
-## Demo:
-https://github.com/vigneshios/SoonaPaanaLibraryDemoApp/tree/master
-
----
 
