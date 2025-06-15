@@ -18,6 +18,12 @@ and suddenly someone shoulder surfs or sneaks and you're like *Paathutaan daa!*
 
 People around you are reading over your shoulder.
 
+## Inspired by
+Vadivelu, Shoulder surfers, And a sprinkle of common sense.
+
+## License: MIT 
+Feel free to confuse freely.
+
 ## Real-world Use Cases
 -  Building an interface for these and beyond,
 -  Entering passwords or OTPs in public,
@@ -39,8 +45,14 @@ People around you are reading over your shoulder.
 -  Works with both `UITextField` and `UITextView`
 -  **No autocorrect or spellcheck** interference
 -  Easily revert obfuscated text using a confuser logic
-## Demo:
+## Demo: 
 https://github.com/vigneshios/SoonaPaanaLibraryDemoApp/tree/master
+
+| Component             | Purpose                               |
+| --------------------- | ------------------------------------- |
+| `SoonaPaanaTextField` | For single-line secret input          |
+| `SoonaPaanaTextView`  | For multi-line disguised typing       |
+| `SoonaPaanaConfuser`  | Obfuscates and restores original text |
 
 ---
 
@@ -64,7 +76,7 @@ In Xcode:
 
 ---
 
-## 💻 Usage Example
+## Usage Example
 
 ```swift
 let field = SoonaPaanaTextField()
@@ -72,6 +84,13 @@ field.placeholder = "Type something secret"
 
 let textView = SoonaPaanaTextView()
 textView.text = "Hide my story..."
+
+---
+
+
+
+
+
 
 
 
