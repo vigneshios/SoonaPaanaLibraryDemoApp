@@ -1,0 +1,15 @@
+{
+  "originHash" : "ac47f8fc134799ff1f39a2cd02d4401c7ebcc58ebc273f69170a1aad91c9733a",
+  "pins" : [
+    {
+      "identity" : "soonapaanasecuritykit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vigneshios/SoonaPaanaSecurityKit",
+      "state" : {
+        "revision" : "5d657a86ef24e2834816041505e1235bc4fe2428",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
