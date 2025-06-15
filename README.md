@@ -11,7 +11,7 @@
 
 ---
 
-## 🧐 The Problem - Shoulder Surfing
+##  The Problem - Shoulder Surfing
 
 You're in a crowded place — typing an OTP, a note, or a juicy message in your app's text interface  —  
 and suddenly someone sneaks and you're like *Paathutaan daa!*  
@@ -20,21 +20,21 @@ People around you are reading over your shoulder.
 
 ---
 
-## 🧪 The Solution
+##  The Solution
 
 **SoonaPaanaSecurityKit** is a simple, lightweight Swift package that lets you:
 
-- 🔒 **Obfuscate** typed text in real-time (like `yt$%78&`)
-- ✍️ **Reveal on long-press** — temporary, like a whisper
-- 📱 Works with both `UITextField` and `UITextView`
-- 🤖 **No autocorrect or spellcheck** interference
-- 🔁 Easily revert obfuscated text using a confuser logic
+-  **Obfuscate** typed text in real-time (like `yt$%78&`)
+-  **Reveal on long-press** — temporary, like a whisper
+-  Works with both `UITextField` and `UITextView`
+-  **No autocorrect or spellcheck** interference
+-  Easily revert obfuscated text using a confuser logic
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
-### ➕ Swift Package Manager (SPM)
+###  Swift Package Manager (SPM)
 
 In Xcode:
 
@@ -48,7 +48,7 @@ In Xcode:
    - `SoonaPaanaTextField`  
    - `SoonaPaanaTextView`
 
-🖐️ **Long-press** the field to temporarily reveal the real text.
+ **Long-press** the field to temporarily reveal the real text.
 
 ---
 
@@ -60,6 +60,7 @@ field.placeholder = "Type something secret"
 
 let textView = SoonaPaanaTextView()
 textView.text = "Hide my story..."
+
 ---
 ## Real-world Use Cases
 Building an interface for these and beyond:
@@ -68,6 +69,9 @@ Writing private notes
 Confusing nosy co-passengers
 Just... for fun!
 
-Demo:
+---
+## Demo:
 https://github.com/vigneshios/SoonaPaanaLibraryDemoApp/tree/master
+
+---
 
