@@ -22,11 +22,11 @@ People around you are reading over your shoulder.
 -  Building an interface for these and beyond,
 -  Entering passwords or OTPs in public,
 -  Writing private notes,
--  Simply confusing nosy co-passengers,
+-  Simply confusing nosy co-passengers,co-workers etc..
 -  just for fun!
 
 
-![soona-paana](https://github.com/user-attachments/assets/036cebf5-ea0f-409d-9b90-20a2516fbcd9)
+  ![soona-paana](https://github.com/user-attachments/assets/036cebf5-ea0f-409d-9b90-20a2516fbcd9)
 
 ---
 
