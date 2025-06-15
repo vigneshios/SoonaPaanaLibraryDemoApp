@@ -5,25 +5,28 @@
 <h1 align="center">🛡️ SoonaPaanaSecurityKit</h1>
 
 <p align="center">
-  <strong>Obfuscate what you type. Reveal only when *you* choose.</strong><br/>
-  <em>Inspired by real privacy problems — and the legendary Vadivelu.</em>
+  <strong>Looks like nonsense to others. Makes perfect sense to you.</strong><br/>
+<em>SoonaPaana-style input obfuscation for privacy with personality</em>
 </p>
 
 ---
 
 ##  The Problem - Shoulder Surfing
 
-You're in a crowded place — typing an OTP, a note, or a juicy message in your app's text interface  —  
-and suddenly someone sneaks and you're like *Paathutaan daa!*  
+You're in a crowded place — typing an OTP, a note, or a juicy message or anything in your app's text interface  —  
+and suddenly someone shoulder surfs or sneaks and you're like *Paathutaan daa!*  
 
 People around you are reading over your shoulder.
 
 ## Real-world Use Cases
-Building an interface for these and beyond:
-Entering passwords or OTPs in public
-Writing private notes
-Confusing nosy co-passengers
-Just... for fun!
+-  Building an interface for these and beyond,
+-  Entering passwords or OTPs in public,
+-  Writing private notes,
+-  Simply confusing nosy co-passengers,
+-  just for fun!
+
+
+![soona-paana](https://github.com/user-attachments/assets/036cebf5-ea0f-409d-9b90-20a2516fbcd9)
 
 ---
 
@@ -36,8 +39,6 @@ Just... for fun!
 -  Works with both `UITextField` and `UITextView`
 -  **No autocorrect or spellcheck** interference
 -  Easily revert obfuscated text using a confuser logic
-
--  
 ## Demo:
 https://github.com/vigneshios/SoonaPaanaLibraryDemoApp/tree/master
 
