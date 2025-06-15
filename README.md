@@ -1,28 +1,73 @@
-![po-po-vadivelu](https://github.com/user-attachments/assets/be7d84ff-4b48-4063-bc64-6c731eb01f35)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/05128604-ff10-45c1-9495-33a96861f631" width="350" />
+</p>
 
+<h1 align="center">🛡️ SoonaPaanaSecurityKit</h1>
 
-# SoonaPaanaSecurityKit Demo
+<p align="center">
+  <strong>Obfuscate what you type. Reveal only when *you* choose.</strong><br/>
+  <em>Inspired by real privacy problems — and the legendary Vadivelu.</em>
+</p>
 
-This is a sample app demonstrating how to use [SoonaPaanaSecurityKit](https://github.com/vigneshios/SoonaPaanaSecurityKit) — a funny yet functional Swift library to obfuscate text inputs in text fields and text views.
+---
 
-##  Features
+## 🧐 The Problem - Shoulder Surfing
 
-- Encrypted-looking gibberish input
-- Long-press to reveal real text
-- Works well with both `UITextField` and `UITextView`
+You're in a crowded place — typing an OTP, a note, or a juicy message in your app's text interface  —  
+and suddenly someone sneaks and you're like *Paathutaan daa!*  
 
-##  Setup
-Add the Swift Package:
+People around you are reading over your shoulder.
 
-Steps to Incorporate:
-Open Xcode > File > Swift Packages > Add Package Dependency
-Enter the Git URL of the main package repo:
-https://github.com/vigneshios/SoonaPaanaSecurityKit.git
-Choose Version > Exact > 1.0.0
-Click Next and finish setup
+---
 
-![image](https://github.com/user-attachments/assets/c845bf02-acec-446d-afd7-457a50029694)
+## 🧪 The Solution
 
+**SoonaPaanaSecurityKit** is a simple, lightweight Swift package that lets you:
 
+- 🔒 **Obfuscate** typed text in real-time (like `yt$%78&`)
+- ✍️ **Reveal on long-press** — temporary, like a whisper
+- 📱 Works with both `UITextField` and `UITextView`
+- 🤖 **No autocorrect or spellcheck** interference
+- 🔁 Easily revert obfuscated text using a confuser logic
 
+---
+
+## ⚙️ Installation
+
+### ➕ Swift Package Manager (SPM)
+
+In Xcode:
+
+1. Go to `File > Add Packages`
+2. Paste this URL:  
+   `https://github.com/vigneshios/SoonaPaanaSecurityKit.git`
+3. Choose your project target.
+4. Import the module where needed:  
+   `import SoonaPaanaSecurityKit`
+5. Use the custom components:  
+   - `SoonaPaanaTextField`  
+   - `SoonaPaanaTextView`
+
+🖐️ **Long-press** the field to temporarily reveal the real text.
+
+---
+
+## 💻 Usage Example
+
+```swift
+let field = SoonaPaanaTextField()
+field.placeholder = "Type something secret"
+
+let textView = SoonaPaanaTextView()
+textView.text = "Hide my story..."
+---
+## Real-world Use Cases
+Building an interface for these and beyond:
+Entering passwords or OTPs in public
+Writing private notes
+Confusing nosy co-passengers
+Just... for fun!
+
+Demo:
+https://github.com/vigneshios/SoonaPaanaLibraryDemoApp/tree/master
 
