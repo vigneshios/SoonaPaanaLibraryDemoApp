@@ -1,3 +1,6 @@
+![po-po-vadivelu](https://github.com/user-attachments/assets/be7d84ff-4b48-4063-bc64-6c731eb01f35)
+
+
 # SoonaPaanaSecurityKit Demo
 
 This is a sample app demonstrating how to use [SoonaPaanaSecurityKit](https://github.com/vigneshios/SoonaPaanaSecurityKit) — a funny yet functional Swift library to obfuscate text inputs in text fields and text views.
@@ -20,6 +23,6 @@ Click Next and finish setup
 
 ![image](https://github.com/user-attachments/assets/c845bf02-acec-446d-afd7-457a50029694)
 
-![po-po-vadivelu](https://github.com/user-attachments/assets/be7d84ff-4b48-4063-bc64-6c731eb01f35)
+
 
 
